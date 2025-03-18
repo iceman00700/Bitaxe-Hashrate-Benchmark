@@ -97,8 +97,8 @@ The script includes several configurable parameters:
 - Benchmark duration: 10 minutes
 - Sample interval: 15 seconds
 - **Minimum required samples: 7** (for valid data processing)
-- Voltage increment: 20mV
-- Frequency increment: 25MHz
+- Voltage increment: 5mV
+- Frequency increment: 5MHz
 
 ## Output
 
