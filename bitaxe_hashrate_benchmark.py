@@ -34,8 +34,8 @@ initial_voltage = args.voltage
 initial_frequency = args.frequency
 
 # Configuration
-voltage_increment = 20
-frequency_increment = 25
+voltage_increment = 5
+frequency_increment = 5
 benchmark_time = 600          # 10 minutes benchmark time
 sample_interval = 15          # 15 seconds sample interval
 max_temp = 66                 # Will stop if temperature reaches or exceeds this value
