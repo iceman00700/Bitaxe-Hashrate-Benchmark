@@ -36,8 +36,8 @@ initial_frequency = args.frequency
 # Configuration
 voltage_increment = 5
 frequency_increment = 5
-benchmark_time = 600          # 10 minutes benchmark time
-sample_interval = 15          # 15 seconds sample interval
+benchmark_time = 300          # 10 minutes benchmark time
+sample_interval = 7.5          # 15 seconds sample interval
 max_temp = 66                 # Will stop if temperature reaches or exceeds this value
 max_allowed_voltage = 1400    # Maximum allowed core voltage
 max_allowed_frequency = 1200  # Maximum allowed core frequency
@@ -174,7 +174,7 @@ def restart_system():
             print(YELLOW + "Applying new settings and waiting 90s for system stabilization..." + RESET)
             response = requests.post(f"{bitaxe_ip}/api/system/restart", timeout=10)
             response.raise_for_status()  # Raise an exception for HTTP errors
-            time.sleep(90)  # Allow 90s time for the system to restart and start hashing
+            time.sleep(120)  # Allow 120s time for the system to restart and start hashing
         else:
             print(YELLOW + "Applying final settings..." + RESET)
             response = requests.post(f"{bitaxe_ip}/api/system/restart", timeout=10)
