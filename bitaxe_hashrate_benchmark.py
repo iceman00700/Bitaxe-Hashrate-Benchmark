@@ -378,7 +378,7 @@ try:
                     current_voltage += voltage_increment
                    #blocked out voltage increase only on fail#  current_frequency -= frequency_increment  # Go back to one frequency step and retry
                    # print(YELLOW + f"Hashrate to low compared to expected. Decreasing frequency to {current_frequency}MHz and increasing voltage to {current_voltage}mV" + RESET)
-                    print(YELLOW + frequency to {current_frequency}MHz and increasing voltage to {current_voltage}mV" + RESET)
+                    print(YELLOW + "frequency to {current_frequency}MHz and increasing voltage to {current_voltage}mV" + RESET)
                 else:
                     break  # We've reached max voltage without good results
         else:
