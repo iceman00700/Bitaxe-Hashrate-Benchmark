@@ -65,7 +65,7 @@ Optional parameters:
 
 Example:
 ```bash
-python bitaxe_hashrate_benchmark.py 192.168.2.29 -v 1175 -f 775
+python bitaxe_hashrate_benchmark.py 192.168.2.29 -v 1166 -f 490
 ```
 
 ### Docker Usage (Optional)
