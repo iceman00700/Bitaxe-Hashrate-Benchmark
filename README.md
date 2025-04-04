@@ -25,6 +25,7 @@ A Python-based benchmarking tool for optimizing Bitaxe mining performance by tes
 1. Clone the repository:
 ```bash
 git clone https://github.com/iceman00700/Bitaxe-Hashrate-Benchmark.git
+cd Bitaxe-Hashrate-Benchmark
 ```
 
 2. Create and activate a virtual environment:
